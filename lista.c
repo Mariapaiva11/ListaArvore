@@ -1,42 +1,42 @@
 // 1
 
-Pré-ordem: 10-8-5-1-2-7-20-15-12
+// Pré-ordem: 10-8-5-1-2-7-20-15-12
 
-Em ordem: 1-2-5-7-8-10-12-15-20
+// Em ordem: 1-2-5-7-8-10-12-15-20
 
-Pós ordem: 2-1-7-5-8-12-15-20-10
-
-
-// 2 
-
-20, 10, 15, 4, 7, 8, 3, 1, 2
-
-	    20 
-     10     15
-   4   7   8   3
- 1   2
+// Pós ordem: 2-1-7-5-8-12-15-20-10
 
 
-//a)
+// // 2 
 
-Passo 1: 10 - 15 - 4 - 7 - 8 - 3 - 1 - 2
+// 20, 10, 15, 4, 7, 8, 3, 1, 2
 
-Passo 2: 2 - 10 - 15 - 4 - 7 - 8 - 3 - 1 
+// 	    20 
+//      10     15
+//    4   7   8   3
+//  1   2
 
-Passo 3: 15 - 10 - 2 - 4 - 7 - 8 - 3 - 1
 
-Vetor após remoção: [15 - 10 - 2 - 4 - 7 - 8 - 3 - 1]
+// //a)
+
+// Passo 1: 10 - 15 - 4 - 7 - 8 - 3 - 1 - 2
+
+// Passo 2: 2 - 10 - 15 - 4 - 7 - 8 - 3 - 1 
+
+// Passo 3: 15 - 10 - 2 - 4 - 7 - 8 - 3 - 1
+
+// Vetor após remoção: [15 - 10 - 2 - 4 - 7 - 8 - 3 - 1]
 
 
-//b)
+// //b)
 
-Passo 1: Adicionado o elemento 16 ao final do vetor.
+// Passo 1: Adicionado o elemento 16 ao final do vetor.
 
-Vetor após a inserção: [20, 10, 15, 4, 7, 8, 3, 1, 2, 16]
+// Vetor após a inserção: [20, 10, 15, 4, 7, 8, 3, 1, 2, 16]
 
-Passo 2: Reorganizando o vetor para garantir a propriedade. Comparando o 16 com seu pai, posição (i-1/2).
+// Passo 2: Reorganizando o vetor para garantir a propriedade. Comparando o 16 com seu pai, posição (i-1/2).
 
-Vetor final:[20, 16, 15, 10, 4, 7, 8, 3, 1, 2]
+// Vetor final:[20, 16, 15, 10, 4, 7, 8, 3, 1, 2]
 
 
 //3 
